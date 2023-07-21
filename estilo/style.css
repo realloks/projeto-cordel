@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte1: 'Passion One', cursive;
+    --fonte2: 'Sriracha', cursive;
+}
+
+body {
+    min-height: 100vh;
+}
+header {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    position: center;
+    font-size: 10vw;
+    padding-top: 50px;
+    font-family: var(--fonte1);
+    font-variant: small-caps;
+}
+
+header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+}
+
+header a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+
+
+article {
+    font-family: var(--fonte2);
+    font-size: 3.5vw;
+    line-height: 2em;
+    margin: 0px 25px;
+    padding: 10px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+article.foto {
+    margin: 10px 0px;
+    padding: 80px 35px;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.438);
+
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article.foto p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 0px 5px; 
+    display: inline-block;
+    text-shadow: 1px 1px 0px black;
+}
+
+article#girassol {
+    background-image: url(../imagens/background001.jpg);
+}
+
+article#livros {
+    background-image: url(../imagens/background002.jpg);
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
